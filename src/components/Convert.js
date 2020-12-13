@@ -30,10 +30,8 @@ const Convert =({ language,text})=>{
                 }
             })
             setTranslated(data.data.translations[0].translatedText)
-
-        }
-
-      
+        } 
+              
         doTranslation();
 
        },[language,debouncedText]) 
